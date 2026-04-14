@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: vishu-quiz-backend
+    runtime: node
+    rootDir: .
+    buildCommand: npm install && npm run build
+    startCommand: npm run start -w backend
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: PORT
+        value: 4000
+
+databases:
+  - name: vishu-quiz-db
+    databaseName: vishuquiz
+    user: vishuquiz

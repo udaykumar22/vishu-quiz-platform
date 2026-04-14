@@ -1,0 +1,2802 @@
+[
+  {
+    "id": "q-001",
+    "question": "What is the main festival celebrated as the Malayalam New Year?",
+    "options": [
+      "Onam",
+      "Vishu",
+      "Vijayadashami",
+      "Thrissur Pooram"
+    ],
+    "answer": "Vishu",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-002",
+    "question": "Vishu is primarily celebrated in which Indian state?",
+    "options": [
+      "Tamil Nadu",
+      "Kerala",
+      "Karnataka",
+      "Goa"
+    ],
+    "answer": "Kerala",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-003",
+    "question": "What is the traditional early-morning sight viewed on Vishu?",
+    "options": [
+      "Vishu Kani",
+      "Vishu Kodi",
+      "Vishu Pookalam",
+      "Vishu Sadhya"
+    ],
+    "answer": "Vishu Kani",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-004",
+    "question": "Which deity is central to the Vishu Kani arrangement?",
+    "options": [
+      "Lord Shiva",
+      "Lord Krishna",
+      "Lord Ayyappa",
+      "Lord Ganesha"
+    ],
+    "answer": "Lord Krishna",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-005",
+    "question": "What is the Malayalam term for the ritual gift of money given on Vishu?",
+    "options": [
+      "Dakshina",
+      "Kani",
+      "Kaineettam",
+      "Vazhipadu"
+    ],
+    "answer": "Kaineettam",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-006",
+    "question": "Which crop is commonly included in the Vishu Kani?",
+    "options": [
+      "Wheat",
+      "Rice",
+      "Cucumber",
+      "Banana"
+    ],
+    "answer": "Cucumber",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-007",
+    "question": "What is the traditional lamp used in Vishu Kani?",
+    "options": [
+      "Nilavilakku",
+      "Diya",
+      "Kuthu Vilakku",
+      "Aarti Lamp"
+    ],
+    "answer": "Nilavilakku",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-008",
+    "question": "Which colour is commonly associated with Vishu celebrations?",
+    "options": [
+      "Red",
+      "Yellow",
+      "Blue",
+      "Green"
+    ],
+    "answer": "Yellow",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-009",
+    "question": "What is the traditional feast eaten on Vishu called?",
+    "options": [
+      "Onam Sadhya",
+      "Vishu Sadhya",
+      "Vishu Bhojanam",
+      "Kani Sadhya"
+    ],
+    "answer": "Vishu Sadhya",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-010",
+    "question": "Which fruit is commonly placed in the Vishu Kani?",
+    "options": [
+      "Apple",
+      "Jackfruit",
+      "Orange",
+      "Grapes"
+    ],
+    "answer": "Jackfruit",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-011",
+    "question": "What is the Malayalam word for the first sight seen on Vishu morning?",
+    "options": [
+      "Kani",
+      "Kodi",
+      "Pookalam",
+      "Sadhya"
+    ],
+    "answer": "Kani",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-012",
+    "question": "Which calendar does Vishu mark the New Year for?",
+    "options": [
+      "Tamil Calendar",
+      "Malayalam Calendar",
+      "Hindu Solar Calendar",
+      "Lunar Calendar"
+    ],
+    "answer": "Malayalam Calendar",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-013",
+    "question": "What is the traditional firecracker activity on Vishu called?",
+    "options": [
+      "Vedikkettu",
+      "Deepavali",
+      "Pattimandram",
+      "Kani Kettal"
+    ],
+    "answer": "Vedikkettu",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-014",
+    "question": "Which vegetable is often used in Vishu dishes?",
+    "options": [
+      "Pumpkin",
+      "Bitter gourd",
+      "Carrot",
+      "Potato"
+    ],
+    "answer": "Bitter gourd",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-015",
+    "question": "What is the Malayalam term for new clothes worn on Vishu?",
+    "options": [
+      "Kodi",
+      "Veshti",
+      "Mundu",
+      "Pattu"
+    ],
+    "answer": "Kodi",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-016",
+    "question": "Which flower is traditionally used in the Vishu Kani?",
+    "options": [
+      "Marigold",
+      "Kanikonna",
+      "Lotus",
+      "Jasmine"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-017",
+    "question": "What does Vishu symbolise?",
+    "options": [
+      "End of harvest",
+      "Beginning of harvest",
+      "Astronomical New Year",
+      "Monsoon arrival"
+    ],
+    "answer": "Astronomical New Year",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-018",
+    "question": "Which direction should one face when viewing the Vishu Kani?",
+    "options": [
+      "East",
+      "West",
+      "North",
+      "South"
+    ],
+    "answer": "East",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-019",
+    "question": "Which grain is commonly displayed in the Vishu Kani?",
+    "options": [
+      "Rice",
+      "Wheat",
+      "Barley",
+      "Millet"
+    ],
+    "answer": "Rice",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-020",
+    "question": "What is the Malayalam word for prosperity associated with Vishu?",
+    "options": [
+      "Bhagyam",
+      "Aishwaryam",
+      "Sampath",
+      "Lakshyam"
+    ],
+    "answer": "Aishwaryam",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-021",
+    "question": "Which sweet dish is commonly prepared for Vishu?",
+    "options": [
+      "Payasam",
+      "Ladoo",
+      "Halwa",
+      "Kesari"
+    ],
+    "answer": "Payasam",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-022",
+    "question": "What is the Malayalam term for fireworks?",
+    "options": [
+      "Vedikkettu",
+      "Pattasu",
+      "Deepam",
+      "Kani"
+    ],
+    "answer": "Vedikkettu",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-023",
+    "question": "Which metal mirror is used in the Vishu Kani?",
+    "options": [
+      "Bronze mirror",
+      "Aranmula Kannadi",
+      "Silver mirror",
+      "Copper mirror"
+    ],
+    "answer": "Aranmula Kannadi",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-024",
+    "question": "What is the Malayalam word for the ceremonial viewing of the Kani?",
+    "options": [
+      "Kani Kanal",
+      "Kani Kettal",
+      "Kani Darshan",
+      "Kani Pooja"
+    ],
+    "answer": "Kani Kettal",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-025",
+    "question": "Which zodiac sign does the Sun enter during Vishu?",
+    "options": [
+      "Aries",
+      "Taurus",
+      "Gemini",
+      "Cancer"
+    ],
+    "answer": "Aries",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-026",
+    "question": "What is the Malayalam word for happiness during Vishu?",
+    "options": [
+      "Santhosham",
+      "Sukham",
+      "Nirvana",
+      "Utsavam"
+    ],
+    "answer": "Santhosham",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-027",
+    "question": "Which leafy vegetable is often used in Vishu dishes?",
+    "options": [
+      "Spinach",
+      "Drumstick leaves",
+      "Fenugreek leaves",
+      "Curry leaves"
+    ],
+    "answer": "Drumstick leaves",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-028",
+    "question": "What is the Malayalam word for blessings received on Vishu?",
+    "options": [
+      "Anugraham",
+      "Ashirvadam",
+      "Prasadam",
+      "Varam"
+    ],
+    "answer": "Ashirvadam",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-029",
+    "question": "Which traditional Kerala attire is commonly worn on Vishu?",
+    "options": [
+      "Kasavu Saree",
+      "Silk Saree",
+      "Cotton Saree",
+      "Banarasi Saree"
+    ],
+    "answer": "Kasavu Saree",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-030",
+    "question": "What is the Malayalam word for the Vishu feast?",
+    "options": [
+      "Sadhya",
+      "Virunthu",
+      "Bhojanam",
+      "Oottu"
+    ],
+    "answer": "Sadhya",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-031",
+    "question": "Which oil is commonly used in Vishu cooking?",
+    "options": [
+      "Coconut oil",
+      "Sesame oil",
+      "Sunflower oil",
+      "Mustard oil"
+    ],
+    "answer": "Coconut oil",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-032",
+    "question": "Which fruit is considered auspicious in the Vishu Kani?",
+    "options": [
+      "Banana",
+      "Mango",
+      "Pineapple",
+      "Papaya"
+    ],
+    "answer": "Banana",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-033",
+    "question": "What is the Malayalam word for the Vishu morning ritual?",
+    "options": [
+      "Kani Kanal",
+      "Kani Darshan",
+      "Kani Kettal",
+      "Kani Pooja"
+    ],
+    "answer": "Kani Kanal",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-034",
+    "question": "Which Kerala dish is commonly part of the Vishu Sadhya?",
+    "options": [
+      "Avial",
+      "Pongal",
+      "Idli",
+      "Upma"
+    ],
+    "answer": "Avial",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-035",
+    "question": "What is the Malayalam word for the Vishu gift?",
+    "options": [
+      "Kaineettam",
+      "Dakshina",
+      "Prasadam",
+      "Kodi"
+    ],
+    "answer": "Kaineettam",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-036",
+    "question": "Which lamp is lit during Vishu?",
+    "options": [
+      "Nilavilakku",
+      "Deepam",
+      "Kuthu Vilakku",
+      "Aarti Lamp"
+    ],
+    "answer": "Nilavilakku",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-037",
+    "question": "Which flower is symbolic of prosperity in Vishu?",
+    "options": [
+      "Kanikonna",
+      "Lotus",
+      "Jasmine",
+      "Marigold"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-038",
+    "question": "What is the Malayalam word for the Vishu New Year?",
+    "options": [
+      "Puthuvarsham",
+      "Vishuvarsham",
+      "Navavarsham",
+      "Varsham"
+    ],
+    "answer": "Vishuvarsham",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-039",
+    "question": "Which Kerala region celebrates Vishu most prominently?",
+    "options": [
+      "Malabar",
+      "Travancore",
+      "Cochin",
+      "All regions equally"
+    ],
+    "answer": "All regions equally",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-040",
+    "question": "What is the Malayalam word for the Vishu morning?",
+    "options": [
+      "Vishuppulari",
+      "Vishuppakal",
+      "Vishuppoovu",
+      "Vishuppoornam"
+    ],
+    "answer": "Vishuppulari",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-041",
+    "question": "Which grain-filled vessel is used in the Kani?",
+    "options": [
+      "Uruli",
+      "Kalash",
+      "Handi",
+      "Matka"
+    ],
+    "answer": "Uruli",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-042",
+    "question": "Which sweet is commonly made with jaggery during Vishu?",
+    "options": [
+      "Ada Pradhaman",
+      "Kesari",
+      "Ladoo",
+      "Payasam"
+    ],
+    "answer": "Ada Pradhaman",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-043",
+    "question": "What is the Malayalam word for the Vishu celebration?",
+    "options": [
+      "Utsavam",
+      "Aacharam",
+      "Pooram",
+      "Pooja"
+    ],
+    "answer": "Utsavam",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-044",
+    "question": "Which vegetable is used in Vishu Kani for prosperity?",
+    "options": [
+      "Cucumber",
+      "Pumpkin",
+      "Carrot",
+      "Beetroot"
+    ],
+    "answer": "Cucumber",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-045",
+    "question": "Which Kerala instrument is sometimes played during Vishu?",
+    "options": [
+      "Chenda",
+      "Nadaswaram",
+      "Mridangam",
+      "Tabla"
+    ],
+    "answer": "Chenda",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-046",
+    "question": "What does the Vishu Kani symbolise?",
+    "options": [
+      "Good fortune",
+      "Harvest",
+      "Rain",
+      "Victory"
+    ],
+    "answer": "Good fortune",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-047",
+    "question": "Which Kerala dish uses raw mango and is common during Vishu?",
+    "options": [
+      "Manga Curry",
+      "Manga Pachadi",
+      "Manga Thoran",
+      "Manga Sambar"
+    ],
+    "answer": "Manga Pachadi",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-048",
+    "question": "What is the Malayalam word for the Vishu fireworks?",
+    "options": [
+      "Vedikkettu",
+      "Pattasu",
+      "Deepam",
+      "Kani"
+    ],
+    "answer": "Vedikkettu",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-049",
+    "question": "Which Kerala tradition involves elders giving money to children?",
+    "options": [
+      "Kaineettam",
+      "Dakshina",
+      "Prasadam",
+      "Kodi"
+    ],
+    "answer": "Kaineettam",
+    "difficulty": "easy",
+    "published": true,
+    "source": "sample-50"
+  },
+  {
+    "id": "q-050",
+    "question": "Which item is traditionally kept in Vishu Kani for auspicious beginnings?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-051",
+    "question": "What does Vishu emphasize in Kerala households regarding auspicious beginnings?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-052",
+    "question": "In Vishu observance, auspicious beginnings is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-053",
+    "question": "Which statement about Vishu and auspicious beginnings is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-054",
+    "question": "Which item is traditionally kept in Vishu Kani for family blessings?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-055",
+    "question": "What does Vishu emphasize in Kerala households regarding family blessings?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-056",
+    "question": "In Vishu observance, family blessings is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-057",
+    "question": "Which statement about Vishu and family blessings is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-058",
+    "question": "Which item is traditionally kept in Vishu Kani for new year symbolism?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-059",
+    "question": "What does Vishu emphasize in Kerala households regarding new year symbolism?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-060",
+    "question": "In Vishu observance, new year symbolism is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-061",
+    "question": "Which statement about Vishu and new year symbolism is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-062",
+    "question": "Which item is traditionally kept in Vishu Kani for gold prosperity?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-063",
+    "question": "What does Vishu emphasize in Kerala households regarding gold prosperity?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-064",
+    "question": "In Vishu observance, gold prosperity is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-065",
+    "question": "Which statement about Vishu and gold prosperity is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-066",
+    "question": "Which item is traditionally kept in Vishu Kani for traditional lamps?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-067",
+    "question": "What does Vishu emphasize in Kerala households regarding traditional lamps?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-068",
+    "question": "In Vishu observance, traditional lamps is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-069",
+    "question": "Which statement about Vishu and traditional lamps is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-070",
+    "question": "Which item is traditionally kept in Vishu Kani for Aranmula mirror?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-071",
+    "question": "What does Vishu emphasize in Kerala households regarding Aranmula mirror?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-072",
+    "question": "In Vishu observance, Aranmula mirror is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-073",
+    "question": "Which statement about Vishu and Aranmula mirror is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-074",
+    "question": "Which item is traditionally kept in Vishu Kani for kanikonna flowers?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-075",
+    "question": "What does Vishu emphasize in Kerala households regarding kanikonna flowers?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-076",
+    "question": "In Vishu observance, kanikonna flowers is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-077",
+    "question": "Which statement about Vishu and kanikonna flowers is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-078",
+    "question": "Which item is traditionally kept in Vishu Kani for seasonal produce?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-079",
+    "question": "What does Vishu emphasize in Kerala households regarding seasonal produce?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-080",
+    "question": "In Vishu observance, seasonal produce is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-081",
+    "question": "Which statement about Vishu and seasonal produce is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-082",
+    "question": "Which item is traditionally kept in Vishu Kani for village celebrations?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-083",
+    "question": "What does Vishu emphasize in Kerala households regarding village celebrations?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-084",
+    "question": "In Vishu observance, village celebrations is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-085",
+    "question": "Which statement about Vishu and village celebrations is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-086",
+    "question": "Which item is traditionally kept in Vishu Kani for morning ritual?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-087",
+    "question": "What does Vishu emphasize in Kerala households regarding morning ritual?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-088",
+    "question": "In Vishu observance, morning ritual is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-089",
+    "question": "Which statement about Vishu and morning ritual is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-090",
+    "question": "Which item is traditionally kept in Vishu Kani for elders' blessings?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-091",
+    "question": "What does Vishu emphasize in Kerala households regarding elders' blessings?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-092",
+    "question": "In Vishu observance, elders' blessings is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-093",
+    "question": "Which statement about Vishu and elders' blessings is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-094",
+    "question": "Which item is traditionally kept in Vishu Kani for children traditions?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-095",
+    "question": "What does Vishu emphasize in Kerala households regarding children traditions?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-096",
+    "question": "In Vishu observance, children traditions is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-097",
+    "question": "Which statement about Vishu and children traditions is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-098",
+    "question": "Which item is traditionally kept in Vishu Kani for kerala culture?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-099",
+    "question": "What does Vishu emphasize in Kerala households regarding kerala culture?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "medium",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-100",
+    "question": "In Vishu observance, kerala culture is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-101",
+    "question": "Which statement about Vishu and kerala culture is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-102",
+    "question": "Which item is traditionally kept in Vishu Kani for festive attire?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-103",
+    "question": "What does Vishu emphasize in Kerala households regarding festive attire?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-104",
+    "question": "In Vishu observance, festive attire is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-105",
+    "question": "Which statement about Vishu and festive attire is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-106",
+    "question": "Which item is traditionally kept in Vishu Kani for temple visits?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-107",
+    "question": "What does Vishu emphasize in Kerala households regarding temple visits?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-108",
+    "question": "In Vishu observance, temple visits is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-109",
+    "question": "Which statement about Vishu and temple visits is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-110",
+    "question": "Which item is traditionally kept in Vishu Kani for sadhya customs?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-111",
+    "question": "What does Vishu emphasize in Kerala households regarding sadhya customs?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-112",
+    "question": "In Vishu observance, sadhya customs is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-113",
+    "question": "Which statement about Vishu and sadhya customs is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-114",
+    "question": "Which item is traditionally kept in Vishu Kani for payasam offerings?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-115",
+    "question": "What does Vishu emphasize in Kerala households regarding payasam offerings?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-116",
+    "question": "In Vishu observance, payasam offerings is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-117",
+    "question": "Which statement about Vishu and payasam offerings is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-118",
+    "question": "Which item is traditionally kept in Vishu Kani for fireworks etiquette?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-119",
+    "question": "What does Vishu emphasize in Kerala households regarding fireworks etiquette?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-120",
+    "question": "In Vishu observance, fireworks etiquette is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-121",
+    "question": "Which statement about Vishu and fireworks etiquette is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-122",
+    "question": "Which item is traditionally kept in Vishu Kani for solar transition?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-123",
+    "question": "What does Vishu emphasize in Kerala households regarding solar transition?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-124",
+    "question": "In Vishu observance, solar transition is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-125",
+    "question": "Which statement about Vishu and solar transition is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-126",
+    "question": "Which item is traditionally kept in Vishu Kani for community joy?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-127",
+    "question": "What does Vishu emphasize in Kerala households regarding community joy?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-128",
+    "question": "In Vishu observance, community joy is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-129",
+    "question": "Which statement about Vishu and community joy is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-130",
+    "question": "Which item is traditionally kept in Vishu Kani for agricultural hope?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-131",
+    "question": "What does Vishu emphasize in Kerala households regarding agricultural hope?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-132",
+    "question": "In Vishu observance, agricultural hope is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-133",
+    "question": "Which statement about Vishu and agricultural hope is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-134",
+    "question": "Which item is traditionally kept in Vishu Kani for traditional values?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-135",
+    "question": "What does Vishu emphasize in Kerala households regarding traditional values?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-136",
+    "question": "In Vishu observance, traditional values is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-137",
+    "question": "Which statement about Vishu and traditional values is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-138",
+    "question": "Which item is traditionally kept in Vishu Kani for ritual arrangement?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-139",
+    "question": "What does Vishu emphasize in Kerala households regarding ritual arrangement?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-140",
+    "question": "In Vishu observance, ritual arrangement is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-141",
+    "question": "Which statement about Vishu and ritual arrangement is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-142",
+    "question": "Which item is traditionally kept in Vishu Kani for festive meals?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-143",
+    "question": "What does Vishu emphasize in Kerala households regarding festive meals?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-144",
+    "question": "In Vishu observance, festive meals is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-145",
+    "question": "Which statement about Vishu and festive meals is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-146",
+    "question": "Which item is traditionally kept in Vishu Kani for auspicious objects?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-147",
+    "question": "What does Vishu emphasize in Kerala households regarding auspicious objects?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-148",
+    "question": "In Vishu observance, auspicious objects is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-149",
+    "question": "Which statement about Vishu and auspicious objects is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "hard",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-150",
+    "question": "Which item is traditionally kept in Vishu Kani for cultural memory?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-151",
+    "question": "What does Vishu emphasize in Kerala households regarding cultural memory?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-152",
+    "question": "In Vishu observance, cultural memory is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-153",
+    "question": "Which statement about Vishu and cultural memory is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-154",
+    "question": "Which item is traditionally kept in Vishu Kani for home altar setup?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-155",
+    "question": "What does Vishu emphasize in Kerala households regarding home altar setup?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-156",
+    "question": "In Vishu observance, home altar setup is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-157",
+    "question": "Which statement about Vishu and home altar setup is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-158",
+    "question": "Which item is traditionally kept in Vishu Kani for festival greetings?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-159",
+    "question": "What does Vishu emphasize in Kerala households regarding festival greetings?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-160",
+    "question": "In Vishu observance, festival greetings is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-161",
+    "question": "Which statement about Vishu and festival greetings is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-162",
+    "question": "Which item is traditionally kept in Vishu Kani for symbolic colors?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-163",
+    "question": "What does Vishu emphasize in Kerala households regarding symbolic colors?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-164",
+    "question": "In Vishu observance, symbolic colors is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-165",
+    "question": "Which statement about Vishu and symbolic colors is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-166",
+    "question": "Which item is traditionally kept in Vishu Kani for household rituals?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-167",
+    "question": "What does Vishu emphasize in Kerala households regarding household rituals?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-168",
+    "question": "In Vishu observance, household rituals is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-169",
+    "question": "Which statement about Vishu and household rituals is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-170",
+    "question": "Which item is traditionally kept in Vishu Kani for new clothes custom?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-171",
+    "question": "What does Vishu emphasize in Kerala households regarding new clothes custom?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-172",
+    "question": "In Vishu observance, new clothes custom is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-173",
+    "question": "Which statement about Vishu and new clothes custom is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-174",
+    "question": "Which item is traditionally kept in Vishu Kani for family gathering?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-175",
+    "question": "What does Vishu emphasize in Kerala households regarding family gathering?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-176",
+    "question": "In Vishu observance, family gathering is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-177",
+    "question": "Which statement about Vishu and family gathering is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-178",
+    "question": "Which item is traditionally kept in Vishu Kani for ritual timing?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-179",
+    "question": "What does Vishu emphasize in Kerala households regarding ritual timing?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-180",
+    "question": "In Vishu observance, ritual timing is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-181",
+    "question": "Which statement about Vishu and ritual timing is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-182",
+    "question": "Which item is traditionally kept in Vishu Kani for traditional vessels?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-183",
+    "question": "What does Vishu emphasize in Kerala households regarding traditional vessels?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-184",
+    "question": "In Vishu observance, traditional vessels is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-185",
+    "question": "Which statement about Vishu and traditional vessels is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-186",
+    "question": "Which item is traditionally kept in Vishu Kani for seasonal fruits?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-187",
+    "question": "What does Vishu emphasize in Kerala households regarding seasonal fruits?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-188",
+    "question": "In Vishu observance, seasonal fruits is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-189",
+    "question": "Which statement about Vishu and seasonal fruits is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-190",
+    "question": "Which item is traditionally kept in Vishu Kani for prosperity tokens?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-191",
+    "question": "What does Vishu emphasize in Kerala households regarding prosperity tokens?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-192",
+    "question": "In Vishu observance, prosperity tokens is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-193",
+    "question": "Which statement about Vishu and prosperity tokens is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-194",
+    "question": "Which item is traditionally kept in Vishu Kani for coconut traditions?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-195",
+    "question": "What does Vishu emphasize in Kerala households regarding coconut traditions?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-196",
+    "question": "In Vishu observance, coconut traditions is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-197",
+    "question": "Which statement about Vishu and coconut traditions is correct?",
+    "options": [
+      "It marks a new beginning",
+      "It is a mourning ritual",
+      "It is monsoon opening",
+      "It is harvest end only"
+    ],
+    "answer": "It marks a new beginning",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-198",
+    "question": "Which item is traditionally kept in Vishu Kani for banana offerings?",
+    "options": [
+      "Rice",
+      "Mirror",
+      "Kanikonna",
+      "Nilavilakku"
+    ],
+    "answer": "Kanikonna",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-199",
+    "question": "What does Vishu emphasize in Kerala households regarding banana offerings?",
+    "options": [
+      "Prosperity",
+      "Fasting",
+      "Pilgrimage",
+      "Monsoon"
+    ],
+    "answer": "Prosperity",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  },
+  {
+    "id": "q-200",
+    "question": "In Vishu observance, banana offerings is most closely associated with which ritual?",
+    "options": [
+      "Kaineettam",
+      "Kani viewing",
+      "Temple flag hoisting",
+      "Boat race"
+    ],
+    "answer": "Kani viewing",
+    "difficulty": "expert",
+    "published": true,
+    "source": "curated-expansion"
+  }
+]

@@ -1,0 +1,250 @@
+// ----------------------
+// 50-QUESTION VISHU BANK
+// ----------------------
+const questions = [
+  {
+    question: "What is the main festival celebrated as the Malayalam New Year?",
+    options: ["Onam", "Vishu", "Vijayadashami", "Thrissur Pooram"],
+    answer: "Vishu"
+  },
+  {
+    question: "Vishu is primarily celebrated in which Indian state?",
+    options: ["Tamil Nadu", "Kerala", "Karnataka", "Goa"],
+    answer: "Kerala"
+  },
+  {
+    question: "What is the traditional early-morning sight viewed on Vishu?",
+    options: ["Vishu Kani", "Vishu Kodi", "Vishu Pookalam", "Vishu Sadhya"],
+    answer: "Vishu Kani"
+  },
+  {
+    question: "Which deity is central to the Vishu Kani arrangement?",
+    options: ["Lord Shiva", "Lord Krishna", "Lord Ayyappa", "Lord Ganesha"],
+    answer: "Lord Krishna"
+  },
+  {
+    question: "What is the Malayalam term for the ritual gift of money given on Vishu?",
+    options: ["Dakshina", "Kani", "Kaineettam", "Vazhipadu"],
+    answer: "Kaineettam"
+  },
+  {
+    question: "Which crop is commonly included in the Vishu Kani?",
+    options: ["Wheat", "Rice", "Cucumber", "Banana"],
+    answer: "Cucumber"
+  },
+  {
+    question: "What is the traditional lamp used in Vishu Kani?",
+    options: ["Nilavilakku", "Diya", "Kuthu Vilakku", "Aarti Lamp"],
+    answer: "Nilavilakku"
+  },
+  {
+    question: "Which colour is commonly associated with Vishu celebrations?",
+    options: ["Red", "Yellow", "Blue", "Green"],
+    answer: "Yellow"
+  },
+  {
+    question: "What is the traditional feast eaten on Vishu called?",
+    options: ["Onam Sadhya", "Vishu Sadhya", "Vishu Bhojanam", "Kani Sadhya"],
+    answer: "Vishu Sadhya"
+  },
+  {
+    question: "Which fruit is commonly placed in the Vishu Kani?",
+    options: ["Apple", "Jackfruit", "Orange", "Grapes"],
+    answer: "Jackfruit"
+  },
+  {
+    question: "What is the Malayalam word for the first sight seen on Vishu morning?",
+    options: ["Kani", "Kodi", "Pookalam", "Sadhya"],
+    answer: "Kani"
+  },
+  {
+    question: "Which calendar does Vishu mark the New Year for?",
+    options: ["Tamil Calendar", "Malayalam Calendar", "Hindu Solar Calendar", "Lunar Calendar"],
+    answer: "Malayalam Calendar"
+  },
+  {
+    question: "What is the traditional firecracker activity on Vishu called?",
+    options: ["Vedikkettu", "Deepavali", "Pattimandram", "Kani Kettal"],
+    answer: "Vedikkettu"
+  },
+  {
+    question: "Which vegetable is often used in Vishu dishes?",
+    options: ["Pumpkin", "Bitter gourd", "Carrot", "Potato"],
+    answer: "Bitter gourd"
+  },
+  {
+    question: "What is the Malayalam term for new clothes worn on Vishu?",
+    options: ["Kodi", "Veshti", "Mundu", "Pattu"],
+    answer: "Kodi"
+  },
+  {
+    question: "Which flower is traditionally used in the Vishu Kani?",
+    options: ["Marigold", "Kanikonna", "Lotus", "Jasmine"],
+    answer: "Kanikonna"
+  },
+  {
+    question: "What does Vishu symbolise?",
+    options: ["End of harvest", "Beginning of harvest", "Astronomical New Year", "Monsoon arrival"],
+    answer: "Astronomical New Year"
+  },
+  {
+    question: "Which direction should one face when viewing the Vishu Kani?",
+    options: ["East", "West", "North", "South"],
+    answer: "East"
+  },
+  {
+    question: "Which grain is commonly displayed in the Vishu Kani?",
+    options: ["Rice", "Wheat", "Barley", "Millet"],
+    answer: "Rice"
+  },
+  {
+    question: "What is the Malayalam word for prosperity associated with Vishu?",
+    options: ["Bhagyam", "Aishwaryam", "Sampath", "Lakshyam"],
+    answer: "Aishwaryam"
+  },
+  {
+    question: "Which sweet dish is commonly prepared for Vishu?",
+    options: ["Payasam", "Ladoo", "Halwa", "Kesari"],
+    answer: "Payasam"
+  },
+  {
+    question: "What is the Malayalam term for fireworks?",
+    options: ["Vedikkettu", "Pattasu", "Deepam", "Kani"],
+    answer: "Vedikkettu"
+  },
+  {
+    question: "Which metal mirror is used in the Vishu Kani?",
+    options: ["Bronze mirror", "Aranmula Kannadi", "Silver mirror", "Copper mirror"],
+    answer: "Aranmula Kannadi"
+  },
+  {
+    question: "What is the Malayalam word for the ceremonial viewing of the Kani?",
+    options: ["Kani Kanal", "Kani Kettal", "Kani Darshan", "Kani Pooja"],
+    answer: "Kani Kettal"
+  },
+  {
+    question: "Which zodiac sign does the Sun enter during Vishu?",
+    options: ["Aries", "Taurus", "Gemini", "Cancer"],
+    answer: "Aries"
+  },
+  {
+    question: "What is the Malayalam word for happiness during Vishu?",
+    options: ["Santhosham", "Sukham", "Nirvana", "Utsavam"],
+    answer: "Santhosham"
+  },
+  {
+    question: "Which leafy vegetable is often used in Vishu dishes?",
+    options: ["Spinach", "Drumstick leaves", "Fenugreek leaves", "Curry leaves"],
+    answer: "Drumstick leaves"
+  },
+  {
+    question: "What is the Malayalam word for blessings received on Vishu?",
+    options: ["Anugraham", "Ashirvadam", "Prasadam", "Varam"],
+    answer: "Ashirvadam"
+  },
+  {
+    question: "Which traditional Kerala attire is commonly worn on Vishu?",
+    options: ["Kasavu Saree", "Silk Saree", "Cotton Saree", "Banarasi Saree"],
+    answer: "Kasavu Saree"
+  },
+  {
+    question: "What is the Malayalam word for the Vishu feast?",
+    options: ["Sadhya", "Virunthu", "Bhojanam", "Oottu"],
+    answer: "Sadhya"
+  },
+  {
+    question: "Which oil is commonly used in Vishu cooking?",
+    options: ["Coconut oil", "Sesame oil", "Sunflower oil", "Mustard oil"],
+    answer: "Coconut oil"
+  },
+  {
+    question: "Which fruit is considered auspicious in the Vishu Kani?",
+    options: ["Banana", "Mango", "Pineapple", "Papaya"],
+    answer: "Banana"
+  },
+  {
+    question: "What is the Malayalam word for the Vishu morning ritual?",
+    options: ["Kani Kanal", "Kani Darshan", "Kani Kettal", "Kani Pooja"],
+    answer: "Kani Kanal"
+  },
+  {
+    question: "Which Kerala dish is commonly part of the Vishu Sadhya?",
+    options: ["Avial", "Pongal", "Idli", "Upma"],
+    answer: "Avial"
+  },
+  {
+    question: "What is the Malayalam word for the Vishu gift?",
+    options: ["Kaineettam", "Dakshina", "Prasadam", "Kodi"],
+    answer: "Kaineettam"
+  },
+  {
+    question: "Which lamp is lit during Vishu?",
+    options: ["Nilavilakku", "Deepam", "Kuthu Vilakku", "Aarti Lamp"],
+    answer: "Nilavilakku"
+  },
+  {
+    question: "Which flower is symbolic of prosperity in Vishu?",
+    options: ["Kanikonna", "Lotus", "Jasmine", "Marigold"],
+    answer: "Kanikonna"
+  },
+  {
+    question: "What is the Malayalam word for the Vishu New Year?",
+    options: ["Puthuvarsham", "Vishuvarsham", "Navavarsham", "Varsham"],
+    answer: "Vishuvarsham"
+  },
+  {
+    question: "Which Kerala region celebrates Vishu most prominently?",
+    options: ["Malabar", "Travancore", "Cochin", "All regions equally"],
+    answer: "All regions equally"
+  },
+  {
+    question: "What is the Malayalam word for the Vishu morning?",
+    options: ["Vishuppulari", "Vishuppakal", "Vishuppoovu", "Vishuppoornam"],
+    answer: "Vishuppulari"
+  },
+  {
+    question: "Which grain-filled vessel is used in the Kani?",
+    options: ["Uruli", "Kalash", "Handi", "Matka"],
+    answer: "Uruli"
+  },
+  {
+    question: "Which sweet is commonly made with jaggery during Vishu?",
+    options: ["Ada Pradhaman", "Kesari", "Ladoo", "Payasam"],
+    answer: "Ada Pradhaman"
+  },
+  {
+    question: "What is the Malayalam word for the Vishu celebration?",
+    options: ["Utsavam", "Aacharam", "Pooram", "Pooja"],
+    answer: "Utsavam"
+  },
+  {
+    question: "Which vegetable is used in Vishu Kani for prosperity?",
+    options: ["Cucumber", "Pumpkin", "Carrot", "Beetroot"],
+    answer: "Cucumber"
+  },
+  {
+    question: "Which Kerala instrument is sometimes played during Vishu?",
+    options: ["Chenda", "Nadaswaram", "Mridangam", "Tabla"],
+    answer: "Chenda"
+  },
+  {
+    question: "What does the Vishu Kani symbolise?",
+    options: ["Good fortune", "Harvest", "Rain", "Victory"],
+    answer: "Good fortune"
+  },
+  {
+    question: "Which Kerala dish uses raw mango and is common during Vishu?",
+    options: ["Manga Curry", "Manga Pachadi", "Manga Thoran", "Manga Sambar"],
+    answer: "Manga Pachadi"
+  },
+  {
+    question: "What is the Malayalam word for the Vishu fireworks?",
+    options: ["Vedikkettu", "Pattasu", "Deepam", "Kani"],
+    answer: "Vedikkettu"
+  },
+  {
+    question: "Which Kerala tradition involves elders giving money to children?",
+    options: ["Kaineettam", "Dakshina", "Prasadam", "Kodi"],
+    answer: "Kaineettam"
+  }
+];
