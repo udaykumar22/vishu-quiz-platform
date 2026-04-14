@@ -9,4 +9,6 @@ dist/
 .DS_Store
 coverage/
 *.tsbuildinfo
-node_modules
+
+# Local Netlify folder
+.netlify
