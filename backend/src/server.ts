@@ -1,4 +1,5 @@
 import express from "express";
+import type { Request, RequestHandler } from "express";
 import cors from "cors";
 import helmet from "helmet";
 import compression from "compression";
@@ -22,16 +23,6 @@ const adminUser = process.env.ADMIN_USER ?? "admin";
 const adminPassword = process.env.ADMIN_PASSWORD ?? "vishu-admin";
 const hostUser = process.env.HOST_USER ?? "host";
 const hostPassword = process.env.HOST_PASSWORD ?? "vishu-host";
-
-function verifyHostToken(token: unknown): boolean {
-  if (!token || typeof token !== "string") return false;
-  try {
-    const payload = jwt.verify(token, jwtSecret) as { role?: string };
-    return payload.role === "host";
-  } catch {
-    return false;
-  }
-}
 
 app.use(cors());
 app.use(helmet());
@@ -60,19 +51,37 @@ function safeRoom(room: Room) {
   };
 }
 
+function getBearer(req: Request): string | null {
+  const h = req.headers.authorization;
+  if (!h?.startsWith("Bearer ")) return null;
+  return h.slice(7);
+}
+
+const requireAdmin: RequestHandler = (req, res, next) => {
+  const token = getBearer(req);
+  if (!token) return res.status(401).json({ message: "Missing Authorization Bearer token" });
+  try {
+    const decoded = jwt.verify(token, jwtSecret) as { role?: string };
+    if (decoded.role !== "admin") return res.status(403).json({ message: "Admin role required" });
+    next();
+  } catch {
+    return res.status(401).json({ message: "Invalid or expired token" });
+  }
+};
+
 app.get("/api/health", (_req, res) => res.json({ ok: true, questions: store.questions.length }));
 
 app.post("/api/admin/login", (req, res) => {
-  const { username, password } = req.body;
+  const { username, password } = req.body ?? {};
   if (username !== adminUser || password !== adminPassword) {
     return res.status(401).json({ message: "Invalid credentials" });
   }
-  const token = jwt.sign({ role: "admin", username }, jwtSecret, { expiresIn: "6h" });
+  const token = jwt.sign({ role: "admin", username }, jwtSecret, { expiresIn: "8h" });
   res.json({ token });
 });
 
 app.post("/api/host/login", (req, res) => {
-  const { username, password } = req.body;
+  const { username, password } = req.body ?? {};
   if (username !== hostUser || password !== hostPassword) {
     return res.status(401).json({ message: "Invalid host credentials" });
   }
@@ -80,30 +89,30 @@ app.post("/api/host/login", (req, res) => {
   res.json({ token });
 });
 
-app.get("/api/admin/questions", (_req, res) => res.json(store.questions));
-app.post("/api/admin/questions", (req, res) => {
+app.get("/api/admin/questions", requireAdmin, (_req, res) => res.json(store.questions));
+app.post("/api/admin/questions", requireAdmin, (req, res) => {
   const body = req.body as QuizQuestion;
   const question = { ...body, id: body.id || uuid() };
   store.questions.push(question);
   upsertQuestions(store.questions);
   res.status(201).json(question);
 });
-app.put("/api/admin/questions/:id", (req, res) => {
+app.put("/api/admin/questions/:id", requireAdmin, (req, res) => {
   const idx = store.questions.findIndex((q) => q.id === req.params.id);
   if (idx < 0) return res.status(404).json({ message: "Not found" });
   store.questions[idx] = { ...store.questions[idx], ...(req.body as Partial<QuizQuestion>) };
   upsertQuestions(store.questions);
   res.json(store.questions[idx]);
 });
-app.delete("/api/admin/questions/:id", (req, res) => {
+app.delete("/api/admin/questions/:id", requireAdmin, (req, res) => {
   store.questions = store.questions.filter((q) => q.id !== req.params.id);
   upsertQuestions(store.questions);
   res.status(204).send();
 });
-app.get("/api/admin/questions/export", (_req, res) => {
+app.get("/api/admin/questions/export", requireAdmin, (_req, res) => {
   res.json({ questions: store.questions });
 });
-app.post("/api/admin/questions/import", (req, res) => {
+app.post("/api/admin/questions/import", requireAdmin, (req, res) => {
   const incoming = req.body?.questions as QuizQuestion[] | undefined;
   if (!incoming || !Array.isArray(incoming)) {
     return res.status(400).json({ message: "questions[] is required" });
@@ -118,9 +127,28 @@ app.get("/api/certificates/:id/verify", (req, res) => {
   return res.json({ valid: true, cert });
 });
 
+function verifyHostToken(token: string | undefined): boolean {
+  if (!token) return false;
+  try {
+    const decoded = jwt.verify(token, jwtSecret) as { role?: string };
+    return decoded.role === "host";
+  } catch {
+    return false;
+  }
+}
+
 io.on("connection", (socket) => {
-  socket.on(SocketEvents.hostCreateRoom, ({ hostName, hostToken }) => {
-    if (!verifyHostToken(hostToken)) return;
+  socket.on(SocketEvents.hostAuthenticate, (payload: { token?: string }, ack?: (r: { ok: boolean; message?: string }) => void) => {
+    const ok = verifyHostToken(payload?.token);
+    socket.data.hostAuthed = ok;
+    if (ack) ack(ok ? { ok: true } : { ok: false, message: "Invalid or expired host token. Log in again on the Host page." });
+  });
+
+  socket.on(SocketEvents.hostCreateRoom, ({ hostName }) => {
+    if (!socket.data.hostAuthed) {
+      socket.emit(SocketEvents.hostError, { message: "Host login required. Sign in with Host ID and password, then try again." });
+      return;
+    }
     const code = roomCode();
     const qs = store.questions.filter((q) => q.published).map((q) => q.id);
     const room: Room = {
@@ -158,18 +186,16 @@ io.on("connection", (socket) => {
     io.to(roomCode).emit(SocketEvents.roomState, safeRoom(room));
   });
 
-  socket.on(SocketEvents.hostSetMode, ({ roomCode, mode, hostToken }) => {
-    if (!verifyHostToken(hostToken)) return;
+  socket.on(SocketEvents.hostSetMode, ({ roomCode, mode }) => {
     const room = store.rooms.get(roomCode);
-    if (!room || room.hostSocketId !== socket.id) return;
+    if (!room || room.hostSocketId !== socket.id || !socket.data.hostAuthed) return;
     room.mode = mode;
     io.to(roomCode).emit(SocketEvents.roomState, safeRoom(room));
   });
 
-  socket.on(SocketEvents.hostStartQuiz, ({ roomCode, hostToken }) => {
-    if (!verifyHostToken(hostToken)) return;
+  socket.on(SocketEvents.hostStartQuiz, ({ roomCode }) => {
     const room = store.rooms.get(roomCode);
-    if (!room || room.hostSocketId !== socket.id) return;
+    if (!room || room.hostSocketId !== socket.id || !socket.data.hostAuthed) return;
     room.status = "in_progress";
     room.currentQuestionIndex = 0;
     room.answers = {};
@@ -184,10 +210,9 @@ io.on("connection", (socket) => {
     room.answers[playerId] = { option, ms };
   });
 
-  socket.on(SocketEvents.hostNextQuestion, async ({ roomCode, hostToken }) => {
-    if (!verifyHostToken(hostToken)) return;
+  socket.on(SocketEvents.hostNextQuestion, ({ roomCode }) => {
     const room = store.rooms.get(roomCode);
-    if (!room || room.hostSocketId !== socket.id) return;
+    if (!room || room.hostSocketId !== socket.id || !socket.data.hostAuthed) return;
     const q = store.questions.find((x) => x.id === room.questionIds[room.currentQuestionIndex]);
     if (q) {
       Object.entries(room.answers).forEach(([playerId, ans]) => {

@@ -35,8 +35,8 @@ export async function generateCertificatePdf(baseUrl: string, playerName: string
   doc.text(`Score: ${score} / ${maxScore}`, { align: "center" });
   doc.text(`Grade: ${grade}`, { align: "center" });
   doc.moveDown();
-  doc.fontSize(11).fillColor("#333").text("Verify this certificate:", { align: "center" });
-  doc.fontSize(9).fillColor("#444").text(verifyUrl, { align: "center", link: verifyUrl, underline: true });
+  doc.fontSize(11).fillColor("#333").text("Verification link (copy into a browser):", { align: "center" });
+  doc.fontSize(10).fillColor("#555").text(verifyUrl, { align: "center", link: verifyUrl });
   doc.end();
 
   await new Promise<void>((resolve) => doc.on("end", () => resolve()));

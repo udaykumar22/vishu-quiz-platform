@@ -17,20 +17,16 @@ export function PlayerPage() {
   const playerLinkWithRoom = roomCode ? `${origin}/player?room=${encodeURIComponent(roomCode)}` : `${origin}/player`;
 
   return (
-    <section className="card">
-      <h2>Player</h2>
+    <section className="card card--player">
+      <h2 className="card-title">Player</h2>
       <p className="help-text">
-        Enter the <strong>room code</strong> the host gives you (or open a link they share that already includes{" "}
-        <code className="inline-code">?room=</code>
-        ). Choose a <strong>nickname</strong>, tap <strong>Join room</strong>, then answer each question.
+        Ask the host for the <strong>room code</strong>, or open the link they send you. Enter your <strong>nickname</strong>, then{" "}
+        <strong>Join room</strong>. When a question appears, choose an answer and tap <strong>Submit answer</strong>.
       </p>
 
-      <div className="field-block">
-        <label className="field-label" htmlFor="room-code-player">
-          Room code
-        </label>
-        <p className="field-hint">From the host (letters/numbers). Can also come from the page URL.</p>
-        <div className="field-row">
+      <div className="form-panel">
+        <div className="form-field">
+          <label htmlFor="room-code-player">Room code</label>
           <input
             id="room-code-player"
             value={roomCode}
@@ -39,26 +35,25 @@ export function PlayerPage() {
             autoCapitalize="characters"
           />
         </div>
-        <p className="field-hint muted">Example link you can share: {playerLinkWithRoom}</p>
-      </div>
+        <p className="field-hint muted">Example URL with code: {playerLinkWithRoom}</p>
 
-      <div className="field-block">
-        <label className="field-label" htmlFor="nickname">
-          Nickname
-        </label>
-        <p className="field-hint">Your name on the scoreboard (e.g. first name or team name).</p>
-        <div className="field-row">
-          <input id="nickname" value={name} onChange={(e) => setName(e.target.value)} placeholder="e.g. Anjali" />
-          <button type="button" onClick={() => socket.emit("player:join", { roomCode, name, playerToken: playerId })} disabled={!roomCode.trim()}>
-            Join room
-          </button>
+        <div className="form-grid">
+          <div className="form-field form-field--grow">
+            <label htmlFor="nickname">Nickname</label>
+            <input id="nickname" value={name} onChange={(e) => setName(e.target.value)} placeholder="Your name on the scoreboard" />
+          </div>
+          <div className="form-actions form-actions--inline">
+            <button type="button" className="btn-primary" onClick={() => socket.emit("player:join", { roomCode, name, playerToken: playerId })} disabled={!roomCode.trim()}>
+              Join room
+            </button>
+          </div>
         </div>
       </div>
 
       {question && (
         <div className="question-block">
           <h3 className="question-title">{question.question}</h3>
-          <p className="field-hint">Tap one option, then submit.</p>
+          <p className="field-hint">Select one option, then submit.</p>
           <div className="options options--spaced">
             {question.options.map((opt) => (
               <button
@@ -74,7 +69,7 @@ export function PlayerPage() {
           <div className="submit-row">
             <button
               type="button"
-              className="btn-primary"
+              className="btn-primary btn-wide"
               disabled={!selected}
               onClick={() => socket.emit("player:answer", { roomCode, playerId, option: selected, ms: 1500 })}
             >

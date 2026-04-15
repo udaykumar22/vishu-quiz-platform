@@ -1,3 +1,4 @@
+/** Must match backend `backend/src/socket/events.ts` */
 export const SocketEvents = {
   hostAuthenticate: "host:authenticate",
   hostError: "host:error",

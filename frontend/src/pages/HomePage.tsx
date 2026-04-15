@@ -7,20 +7,16 @@ export function HomePage() {
     <section className="card home-card">
       <h1 className="home-title">Vishu Quiz</h1>
       <p className="home-lead">
-        Join as a player from this page. The host and admin consoles are separate URLs (not linked here); bookmark them
-        or type the path in the browser bar when you need them.
+        Join a quiz as a player using the room code from your host. Host and admin screens are not linked here — open them only
+        from the URL you were given, or type <code className="inline-code">/host</code> or <code className="inline-code">/admin</code>{" "}
+        in the address bar if you are authorised.
       </p>
       <nav className="home-links" aria-label="Player entry">
         <Link className="home-link home-link--player" to="/player">
-          Open Player screen
+          Enter as player
         </Link>
         <p className="home-hint">
-          Share this player link with your room code in the query string, for example:{" "}
-          <code className="inline-code">{origin}/player?room=YOURCODE</code>
-        </p>
-        <p className="home-hint muted">
-          Host path (no link): <code className="inline-code">/host</code> — requires host login configured on the server.
-          Admin path (no link): <code className="inline-code">/admin</code>.
+          With a room code, use: <code className="inline-code">{origin}/player?room=YOURCODE</code>
         </p>
       </nav>
     </section>
