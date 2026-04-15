@@ -8,10 +8,8 @@ import { KanikonnaFall } from "../animations/KanikonnaFall";
 
 const api = import.meta.env.VITE_API_URL ?? "http://localhost:4000";
 
-/** Primary: try a light instrumental; fallback on `error` event (see audio element). */
-const FESTIVAL_AUDIO_PRIMARY =
-  "https://cdn.pixabay.com/download/audio/2022/03/24/audio_5b982d7c21.mp3?filename=soft-india-110666.mp3";
-const FESTIVAL_AUDIO_FALLBACK = "https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3";
+/** Served from `frontend/public` (same origin as the site) so browsers can play it after a user tap. Replace the file with your own MP3 if you like. */
+const FESTIVAL_MP3 = `${import.meta.env.BASE_URL}vishu-festival.mp3`;
 
 export type QuizOutletContext = {
   socket: Socket;
@@ -32,11 +30,6 @@ export function AppLayout() {
   const [musicOn, setMusicOn] = useState(false);
   const [showIntro, setShowIntro] = useState(() => location.pathname === "/");
   const audioRef = useRef<HTMLAudioElement | null>(null);
-  const [audioSrc, setAudioSrc] = useState(FESTIVAL_AUDIO_PRIMARY);
-
-  useEffect(() => {
-    audioRef.current?.load();
-  }, [audioSrc]);
 
   useEffect(() => {
     localStorage.setItem("playerId", playerId);
@@ -60,28 +53,37 @@ export function AppLayout() {
     };
   }, [socket]);
 
-  const syncAudio = useCallback(
-    async (nextOn: boolean) => {
-      const el = audioRef.current;
-      if (!el) return;
-      if (nextOn) {
-        try {
-          el.volume = 0.35;
-          await el.play();
-        } catch {
-          setMusicOn(false);
-        }
-      } else {
-        el.pause();
+  const syncAudio = useCallback(async (nextOn: boolean) => {
+    const el = audioRef.current;
+    if (!el) return;
+    if (nextOn) {
+      try {
+        el.volume = 0.55;
+        await el.play();
+      } catch {
+        setMusicOn(false);
       }
-    },
-    []
-  );
+    } else {
+      el.pause();
+    }
+  }, []);
 
   const toggleMusic = async () => {
     const next = !musicOn;
     setMusicOn(next);
     await syncAudio(next);
+  };
+
+  const dismissIntro = async () => {
+    setShowIntro(false);
+    const el = audioRef.current;
+    if (el) {
+      try {
+        el.load();
+      } catch {
+        /* ignore */
+      }
+    }
   };
 
   const title =
@@ -107,13 +109,7 @@ export function AppLayout() {
       <div className="bg-vishu" aria-hidden="true" />
       <div className="bg-lamp-glow" aria-hidden="true" />
       <KanikonnaFall />
-      <audio
-        ref={audioRef}
-        src={audioSrc}
-        loop
-        preload="metadata"
-        onError={() => setAudioSrc((prev) => (prev === FESTIVAL_AUDIO_FALLBACK ? prev : FESTIVAL_AUDIO_FALLBACK))}
-      />
+      <audio ref={audioRef} src={FESTIVAL_MP3} loop preload="auto" playsInline />
 
       <AnimatePresence>
         {showIntro && location.pathname === "/" && (
@@ -125,7 +121,7 @@ export function AppLayout() {
           >
             <h1 className="intro-kani">Vishu Kani</h1>
             <p className="intro-sub">Welcome to the Vishu multiplayer quiz</p>
-            <button type="button" className="btn-primary" onClick={() => setShowIntro(false)}>
+            <button type="button" className="btn-primary" onClick={() => void dismissIntro()}>
               Enter festival quiz
             </button>
           </motion.section>
@@ -145,7 +141,8 @@ export function AppLayout() {
           </div>
         </div>
         <p className="site-header__note">
-          Music only starts after you tap &quot;Music on&quot; (browser autoplay rules). Use device volume if needed.
+          Music uses a same-origin MP3 from this site. Tap <strong>Music on</strong> (browsers block sound until you interact).
+          Replace <code className="inline-code">public/vishu-festival.mp3</code> in the repo to change the track.
         </p>
       </header>
 

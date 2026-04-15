@@ -1,5 +1,4 @@
 import PDFDocument from "pdfkit";
-import QRCode from "qrcode";
 import { createCertificate } from "../../dataStore.js";
 
 const grades = [
@@ -24,7 +23,6 @@ export async function generateCertificatePdf(baseUrl: string, playerName: string
     grade
   });
   const verifyUrl = `${baseUrl}/api/certificates/${cert.id}/verify`;
-  const qrData = await QRCode.toDataURL(verifyUrl);
 
   const doc = new PDFDocument({ size: "A4", margin: 40 });
   const chunks: Uint8Array[] = [];
@@ -37,8 +35,8 @@ export async function generateCertificatePdf(baseUrl: string, playerName: string
   doc.text(`Score: ${score} / ${maxScore}`, { align: "center" });
   doc.text(`Grade: ${grade}`, { align: "center" });
   doc.moveDown();
-  doc.image(qrData, 220, 300, { width: 150, height: 150 });
-  doc.fontSize(10).fillColor("#555").text("Scan QR to verify certificate authenticity", 170, 470);
+  doc.fontSize(11).fillColor("#333").text("Verify this certificate:", { align: "center" });
+  doc.fontSize(9).fillColor("#444").text(verifyUrl, { align: "center", link: verifyUrl, underline: true });
   doc.end();
 
   await new Promise<void>((resolve) => doc.on("end", () => resolve()));

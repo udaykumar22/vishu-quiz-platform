@@ -23,10 +23,19 @@ Responsive multiplayer Vishu-themed quiz app with host/player/admin roles, live 
 
 ### Frontend (separate URLs)
 
-- Home / links: `/`
-- Host dashboard: `/host`
+- Home (player entry only): `/`
+- Host dashboard (requires `HOST_USER` / `HOST_PASSWORD` on the API): `/host`
 - Player (use `?room=ROOMCODE` when joining): `/player?room=ABC123`
-- Admin (not linked from Host/Player home): `/admin`
+- Admin (not linked from the home page): `/admin`
+
+### Host vs admin credentials
+
+- **Host** (quiz control): set `HOST_USER` and `HOST_PASSWORD` on the backend. Default local values are often `host` / `vishu-host` if unset.
+- **Admin** (question bank): set `ADMIN_USER` and `ADMIN_PASSWORD` on the backend.
+
+### Festival music file
+
+- The UI plays `frontend/public/vishu-festival.mp3` from your own domain (reliable playback). Replace that file with any MP3 you have rights to use.
 
 ### Backend (API)
 

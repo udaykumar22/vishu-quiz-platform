@@ -6,7 +6,6 @@ import morgan from "morgan";
 import { createServer } from "http";
 import { Server } from "socket.io";
 import jwt from "jsonwebtoken";
-import QRCode from "qrcode";
 import { v4 as uuid } from "uuid";
 import { loadQuestions, store, upsertQuestions } from "./dataStore.js";
 import { ranked, scoreAnswer } from "./modules/leaderboard/scoring.js";
@@ -21,6 +20,18 @@ const port = Number(process.env.PORT ?? 4000);
 const jwtSecret = process.env.JWT_SECRET ?? "dev-secret";
 const adminUser = process.env.ADMIN_USER ?? "admin";
 const adminPassword = process.env.ADMIN_PASSWORD ?? "vishu-admin";
+const hostUser = process.env.HOST_USER ?? "host";
+const hostPassword = process.env.HOST_PASSWORD ?? "vishu-host";
+
+function verifyHostToken(token: unknown): boolean {
+  if (!token || typeof token !== "string") return false;
+  try {
+    const payload = jwt.verify(token, jwtSecret) as { role?: string };
+    return payload.role === "host";
+  } catch {
+    return false;
+  }
+}
 
 app.use(cors());
 app.use(helmet());
@@ -57,6 +68,15 @@ app.post("/api/admin/login", (req, res) => {
     return res.status(401).json({ message: "Invalid credentials" });
   }
   const token = jwt.sign({ role: "admin", username }, jwtSecret, { expiresIn: "6h" });
+  res.json({ token });
+});
+
+app.post("/api/host/login", (req, res) => {
+  const { username, password } = req.body;
+  if (username !== hostUser || password !== hostPassword) {
+    return res.status(401).json({ message: "Invalid host credentials" });
+  }
+  const token = jwt.sign({ role: "host", username }, jwtSecret, { expiresIn: "8h" });
   res.json({ token });
 });
 
@@ -98,14 +118,9 @@ app.get("/api/certificates/:id/verify", (req, res) => {
   return res.json({ valid: true, cert });
 });
 
-app.get("/api/rooms/:roomCode/join-qr", async (req, res) => {
-  const url = `${process.env.FRONTEND_URL ?? "http://localhost:5173"}/player?room=${req.params.roomCode}`;
-  const dataUrl = await QRCode.toDataURL(url);
-  res.json({ roomCode: req.params.roomCode, qr: dataUrl, joinUrl: url });
-});
-
 io.on("connection", (socket) => {
-  socket.on(SocketEvents.hostCreateRoom, ({ hostName }) => {
+  socket.on(SocketEvents.hostCreateRoom, ({ hostName, hostToken }) => {
+    if (!verifyHostToken(hostToken)) return;
     const code = roomCode();
     const qs = store.questions.filter((q) => q.published).map((q) => q.id);
     const room: Room = {
@@ -143,14 +158,16 @@ io.on("connection", (socket) => {
     io.to(roomCode).emit(SocketEvents.roomState, safeRoom(room));
   });
 
-  socket.on(SocketEvents.hostSetMode, ({ roomCode, mode }) => {
+  socket.on(SocketEvents.hostSetMode, ({ roomCode, mode, hostToken }) => {
+    if (!verifyHostToken(hostToken)) return;
     const room = store.rooms.get(roomCode);
     if (!room || room.hostSocketId !== socket.id) return;
     room.mode = mode;
     io.to(roomCode).emit(SocketEvents.roomState, safeRoom(room));
   });
 
-  socket.on(SocketEvents.hostStartQuiz, ({ roomCode }) => {
+  socket.on(SocketEvents.hostStartQuiz, ({ roomCode, hostToken }) => {
+    if (!verifyHostToken(hostToken)) return;
     const room = store.rooms.get(roomCode);
     if (!room || room.hostSocketId !== socket.id) return;
     room.status = "in_progress";
@@ -167,7 +184,8 @@ io.on("connection", (socket) => {
     room.answers[playerId] = { option, ms };
   });
 
-  socket.on(SocketEvents.hostNextQuestion, async ({ roomCode }) => {
+  socket.on(SocketEvents.hostNextQuestion, async ({ roomCode, hostToken }) => {
+    if (!verifyHostToken(hostToken)) return;
     const room = store.rooms.get(roomCode);
     if (!room || room.hostSocketId !== socket.id) return;
     const q = store.questions.find((x) => x.id === room.questionIds[room.currentQuestionIndex]);

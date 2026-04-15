@@ -7,22 +7,21 @@ export function HomePage() {
     <section className="card home-card">
       <h1 className="home-title">Vishu Quiz</h1>
       <p className="home-lead">
-        Multiplayer Vishu festival quiz. Pick a role below — each role has its own link you can bookmark or share.
+        Join as a player from this page. The host and admin consoles are separate URLs (not linked here); bookmark them
+        or type the path in the browser bar when you need them.
       </p>
-      <nav className="home-links" aria-label="Main routes">
-        <Link className="home-link home-link--host" to="/host">
-          Open Host dashboard
-        </Link>
+      <nav className="home-links" aria-label="Player entry">
         <Link className="home-link home-link--player" to="/player">
           Open Player screen
         </Link>
         <p className="home-hint">
-          Players should open the Player link with the room code in the URL, for example:{" "}
+          Share this player link with your room code in the query string, for example:{" "}
           <code className="inline-code">{origin}/player?room=YOURCODE</code>
         </p>
-        <Link className="home-link home-link--admin" to="/admin">
-          Open Admin (content) panel
-        </Link>
+        <p className="home-hint muted">
+          Host path (no link): <code className="inline-code">/host</code> — requires host login configured on the server.
+          Admin path (no link): <code className="inline-code">/admin</code>.
+        </p>
       </nav>
     </section>
   );
