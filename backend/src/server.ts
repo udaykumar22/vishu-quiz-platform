@@ -138,6 +138,8 @@ function verifyHostToken(token: string | undefined): boolean {
 }
 
 io.on("connection", (socket) => {
+  if (!socket.data) (socket as { data: Record<string, unknown> }).data = {};
+
   socket.on(SocketEvents.hostAuthenticate, (payload: { token?: string }, ack?: (r: { ok: boolean; message?: string }) => void) => {
     const ok = verifyHostToken(payload?.token);
     socket.data.hostAuthed = ok;
@@ -164,14 +166,17 @@ io.on("connection", (socket) => {
       answers: {}
     };
     store.rooms.set(code, room);
-    socket.join(code);
-    io.to(code).emit(SocketEvents.roomState, safeRoom(room));
+    const snapshot = safeRoom(room);
+    // Emit to this socket first so the host always receives the new room code (join can be async; io.to(room) may run before the host is in the room).
+    socket.emit(SocketEvents.roomState, snapshot);
+    void Promise.resolve(socket.join(code)).then(() => {
+      io.to(code).emit(SocketEvents.roomState, snapshot);
+    });
   });
 
   socket.on(SocketEvents.playerJoin, ({ roomCode, name, playerToken }) => {
     const room = store.rooms.get(roomCode);
     if (!room) return;
-    socket.join(roomCode);
     const playerId = playerToken ?? uuid();
     room.players[playerId] = room.players[playerId] ?? {
       playerId,
@@ -183,7 +188,11 @@ io.on("connection", (socket) => {
     };
     room.players[playerId].socketId = socket.id;
     room.players[playerId].name = name;
-    io.to(roomCode).emit(SocketEvents.roomState, safeRoom(room));
+    const snapshot = safeRoom(room);
+    socket.emit(SocketEvents.roomState, snapshot);
+    void Promise.resolve(socket.join(roomCode)).then(() => {
+      io.to(roomCode).emit(SocketEvents.roomState, snapshot);
+    });
   });
 
   socket.on(SocketEvents.hostSetMode, ({ roomCode, mode }) => {
