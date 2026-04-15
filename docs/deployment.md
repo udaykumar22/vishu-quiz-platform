@@ -8,6 +8,8 @@ Backend:
 - `JWT_SECRET=change-this`
 - `ADMIN_USER=admin`
 - `ADMIN_PASSWORD=strong-password`
+- `HOST_USER=host` (host screen login; must match what you type in `/host`)
+- `HOST_PASSWORD=strong-host-password`
 - `FRONTEND_URL=https://your-netlify-site.netlify.app`
 - `BACKEND_URL=https://your-render-service.onrender.com`
 
