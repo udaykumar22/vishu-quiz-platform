@@ -20,6 +20,7 @@
     "qrcode": "^1.5.4",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
+    "react-router-dom": "^7.14.1",
     "socket.io-client": "^4.8.3"
   },
   "devDependencies": {
@@ -27,6 +28,7 @@
     "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.5.0",
     "jsdom": "^21.1.2",

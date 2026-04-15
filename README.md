@@ -21,6 +21,15 @@ Responsive multiplayer Vishu-themed quiz app with host/player/admin roles, live 
 
 ## Key routes
 
-- Backend health: `/api/health`
+### Frontend (separate URLs)
+
+- Home / links: `/`
+- Host dashboard: `/host`
+- Player (use `?room=ROOMCODE` when joining): `/player?room=ABC123`
+- Admin (not linked from Host/Player home): `/admin`
+
+### Backend (API)
+
+- Health: `GET /api/health`
 - Admin login: `POST /api/admin/login`
-- Certificate verify: `/api/certificates/:id/verify`
+- Certificate verify: `GET /api/certificates/:id/verify`
